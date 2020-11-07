@@ -1,0 +1,103 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	/*font-family:Arial, Helvetica, sans-serif;*/
+	font-family: 'Inter', sans-serif;
+	font-size:14px;	
+	margin: 0;
+	padding: 5;
+	color: #000000;
+	background: url(../images/siteBackground.png) repeat;
+	
+	
+}
+
+p {
+	margin-top: 0px;	
+	margin-bottom:10px;
+
+}
+a img {
+	border: none;
+}
+a {
+	color: #0000ff;
+	text-decoration: underline; 
+}
+a:hover, a:active, a:focus { 
+	color:#0000ff;
+	text-decoration: none;
+}
+header {
+
+}
+header h1 {
+	color:#5789bb;
+	padding:30px 0;
+}
+footer {
+	padding: 0px 0;
+	position: relative;
+	clear: both;
+	border-top:0px solid #000000;
+	text-align:left;
+}
+.container {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto; 
+
+}
+.sidebar1 {
+	padding: 0 2%;
+
+}
+
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+
+/* Photoswipe */
+
+.my-gallery {
+  width: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+ 
+  margin: 0 -1%;
+  
+}
+.my-gallery figure {
+  display: block;
+  width: 31.3333333%;
+  
+  margin: 1%;
+}
+
+.my-gallery figure a {
+  display: flex;
+}
+
+.my-gallery figcaption {
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+.pswp__caption__center {
+  text-align: center;
+  color: black;
+}
+.pswp__button--share,
+.pswp__counter
+{
+  display: none;
+  }
